@@ -1,0 +1,40 @@
+
+
+@media screen and (max-width:769px){
+  .trash,
+  .total-price{
+    display: none;
+  }
+  .product-information{
+    justify-content: space-between;
+    align-items: center;
+  }
+  .product-name{
+    font-size: 22px;
+  }
+  .img-product{
+    width: 7em;
+    margin-bottom: 1rem;
+  }
+
+
+}
+@media screen and (min-width:991px){
+  .close-element{
+    display:none !important;
+  }
+  .img{
+    width: 60%!important;
+  }
+}
+
+
+
+
+@media screen and (max-width:770px){
+  .product-elements{
+    display: flex;
+    flex-direction: column;
+  }
+
+}
